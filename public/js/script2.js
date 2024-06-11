@@ -47,7 +47,7 @@ function geraResult(){
     return result;
 }
 
-function exibir(){
+function realtime(){
     let result = geraResult();
     let stringResultado = "Tutor: " + result[0] + "<br>" + "Pet: " + result[1] + "<br>" +
     "Data: " + result[2] + "<br>" + "Serviço: " + result[3] + "<br>" + result[4] +

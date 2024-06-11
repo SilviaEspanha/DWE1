@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "trabalhinho-43003"
-  }
+    "default": "trabalhinho-43003",
+    "trabalhinho": "trabalhinho-43003"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
