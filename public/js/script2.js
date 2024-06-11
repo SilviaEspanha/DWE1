@@ -47,7 +47,17 @@ function geraResult(){
     return result;
 }
 
-function realtime(){
+function exibir(){
+    let result = geraResult();
+    let stringResultado = "Tutor: " + result[0] + "<br>" + "Pet: " + result[1] + "<br>" +
+    "Data: " + result[2] + "<br>" + "Serviço: " + result[3] + "<br>" + result[4] +
+    "<br>" + "Valor: R$ " + result[5].toFixed(2) + "<br><br>";
+
+    document.getElementById("result").innerHTML = stringResultado;
+    document.getElementById("Gravar").disabled = false;
+}
+
+function exibir2(){
     let result = geraResult();
     let stringResultado = "Tutor: " + result[0] + "<br>" + "Pet: " + result[1] + "<br>" +
     "Data: " + result[2] + "<br>" + "Serviço: " + result[3] + "<br>" + result[4] +
